@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt="web-development"
+          alt="jack epner web development"
           className="w-16 h-16 object-contain"
         />
 
@@ -66,7 +66,11 @@ const About = () => {
             </p>
           </p>
         </div>
-        <img className="h-[600px] w-[750px] mr-0" src={canyon} />
+        <img
+          className="h-[600px] w-[750px] mr-0"
+          src={canyon}
+          alt="jack epner canyon picture"
+        />
       </motion.p>
     </>
   );
