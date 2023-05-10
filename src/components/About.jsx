@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div id="about" variants={textVariant()}>
+      <motion.div className="mt-10" id="about" variants={textVariant()}>
         <p className={styles.sectionSubText}>Me, Myself, and I</p>
         <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
@@ -67,7 +67,7 @@ const About = () => {
           </p>
         </div>
         <img
-          className="h-[600px] w-[750px] mr-0"
+          className="h-[575px] w-[725px] mr-0"
           src={canyon}
           alt="jack epner canyon picture"
         />
